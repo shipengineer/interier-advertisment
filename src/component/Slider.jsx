@@ -5,6 +5,8 @@ import slide2 from '../assets/slider/logotipnastenu-1 2.png';
 import slide3 from '../assets/slider/logotipnastenu-10 1.png';
 import slide4 from '../assets/slider/logotipnastenu-4 1.png';
 import slide5 from '../assets/slider/logotipnastenu-8 1.png';
+import in_use from '../assets/slider/use-slide.png';
+import not_in_use from '../assets/slider/not-use-slide.png';
 const Roulette = () => {
   //   const [slideNumber, setSlide] = useState(1);
   //   const [autoPlay, setAutoPlay] = useState(true);
@@ -21,10 +23,10 @@ const Roulette = () => {
       <div className={styles.card}>
         <div className={styles.description}>
           <span className={styles.title}>ЛОГОТИПЫ НА СТЕНУ</span>
-          <ul>
-            <li>Интерьерное качество</li>
-            <li>На рынке 8 лет</li>
-            <li>Гарантия 3 года</li>
+          <ul className={styles.ul}>
+            <li className={styles.li}>Интерьерное качество</li>
+            <li className={styles.li}>На рынке 8 лет</li>
+            <li className={styles.li}>Гарантия 3 года</li>
           </ul>
           <button className={styles['call-back']}>
             ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК
@@ -43,9 +45,13 @@ const Roulette = () => {
             <button className={styles.next}>next</button>
           </div>
         </div>
-        <div className={styles.marks}>
-          <img src='' alt='' />
-        </div>
+      </div>
+      <div className={styles.marks}>
+        <img src={in_use} alt='' />
+        <img src={not_in_use} alt='' />
+        <img src={not_in_use} alt='' />
+        <img src={not_in_use} alt='' />
+        <img src={not_in_use} alt='' />
       </div>
     </div>
   );

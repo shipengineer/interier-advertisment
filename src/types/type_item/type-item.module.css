@@ -1,0 +1,46 @@
+.main {
+  width: 300px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.img {
+  background-image: url('../../assets/types/layout.png');
+
+  background: #d9d9d9;
+  border-radius: 3px;
+  width: 300px;
+  height: 168px;
+
+  margin-bottom: 17px;
+}
+.border {
+  position: relative;
+  /* растягиваем на всю ширину и высоту */
+  margin-bottom: -150px;
+  top: -175px;
+  opacity: 0.7;
+  /* делаем чтобы полупрозрачный элемент располагался поверх основного блока */
+
+  background-image: url('../../assets/types/layout.png');
+  /* делаем чтобы картинка полностью растягивалась, необязательный стиль */
+  background-size: 100% 100%;
+}
+.span {
+  font-family: 'PF DinDisplay Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* Черный 2 */
+
+  color: #1c1d1e;
+  margin-bottom: 2px;
+}

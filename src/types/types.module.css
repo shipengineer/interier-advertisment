@@ -1,0 +1,28 @@
+.background {
+  width: 1290px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.title {
+  margin-left: 20px;
+  width: 1290px;
+  margin-bottom: 23px;
+  padding-left: 20px;
+  align-self: center;
+  border-left: 4px solid #dcb658;
+  font-family: 'PF DinDisplay Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 130%;
+  /* or 57px */
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* Черный 2 */
+
+  color: #1c1d1e;
+}

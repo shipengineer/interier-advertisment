@@ -4,8 +4,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .card {
+  background: #ffffff;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
   align-self: center;
   height: 450px;
   width: 1290px;
@@ -45,10 +49,66 @@
   color: #1c1d1e;
 }
 .buttons {
+  position: sticky;
   width: 740px;
   display: flex;
   justify-content: space-between;
 }
 .images img {
   width: 740px;
+}
+.call-back {
+  margin-top: 73px;
+  width: 347px;
+  height: 60px;
+  background: linear-gradient(180deg, #e0bd69 0%, #bb9b4b 100%);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  font-family: 'PF DinDisplay Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* Черный 2 */
+
+  color: #1c1d1e;
+
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+.li {
+  list-style-type: none;
+  margin-bottom: 22px;
+  font-family: 'PF DinDisplay Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+
+  letter-spacing: 0.02em;
+
+  /* Черный 2 */
+
+  color: #1c1d1e;
+}
+.li::before {
+  content: url('../assets/icons/v-icon.png');
+  margin-right: 10px;
+}
+.ul {
+  padding-left: 0px;
+}
+
+.marks img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
 }
