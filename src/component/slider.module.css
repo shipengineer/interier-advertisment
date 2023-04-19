@@ -1,0 +1,54 @@
+.background {
+  height: 544px;
+  min-width: 1290px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  align-self: center;
+  height: 450px;
+  width: 1290px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-container {
+  width: 740px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.images {
+  width: 740px;
+  height: 450px;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  margin-right: 40px;
+  padding-left: 20px;
+  border-left: 4px solid #dcb658;
+  font-family: 'PF DinDisplay Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 130%;
+  /* or 57px */
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* Черный 2 */
+
+  color: #1c1d1e;
+}
+.buttons {
+  width: 740px;
+  display: flex;
+  justify-content: space-between;
+}
+.images img {
+  width: 740px;
+}

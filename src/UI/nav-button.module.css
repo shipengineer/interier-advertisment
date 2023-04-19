@@ -1,0 +1,17 @@
+.icon {
+  margin-right: 10px;
+  margin-left: 30px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: 'PF DinDisplay Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #1c1d1e;
+  outline: none;
+}

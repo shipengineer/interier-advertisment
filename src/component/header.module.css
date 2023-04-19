@@ -1,0 +1,40 @@
+.background {
+  min-width: 1290px;
+  height: 120px;
+  color: #ffff;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 88px;
+  margin-right: 20px;
+}
+.messager-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 129px;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-left: 20px;
+  row-gap: 6px;
+}
+.email {
+  height: fit-content;
+  border-bottom: 2px dotted black;
+  text-decoration: none;
+  font-family: 'PF DinDisplay Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #1c1d1e;
+}
+.contact-app {
+  margin-right: 10px;
+}
