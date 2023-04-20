@@ -1,0 +1,135 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+    align-items: center;
+    border-radius: 3px;
+    /* Белый */
+
+    background: #FFFFFF;
+    /* Обводка */
+
+    border: 1px solid #E4E5E6;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.span {
+    letter-spacing: 0.03em;
+    width: 300px;
+    margin: 25px 30px 0px 30px;
+    font-family: 'PF DinDisplay Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    /* Черный 2 */
+
+    color: #1c1d1e;
+
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+.user-phone {
+    /* Фон */
+
+    background: #F8F9FA;
+    /* Обводка */
+
+    border: 1px solid #E4E5E6;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 350px;
+    height: 60px;
+}
+
+.user-phone img {
+    width: 17px;
+    height: 20px;
+    margin-left: 22px;
+}
+
+.user-phone input {
+    width: 290px;
+    border: none;
+    background-color: #F8F9FA;
+    margin-left: 21px;
+    outline: none;
+}
+
+.order-button {
+
+    width: 347px;
+    height: 60px;
+    background: linear-gradient(180deg, #e0bd69 0%, #bb9b4b 100%);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    font-family: 'PF DinDisplay Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    /* Черный 2 */
+
+    color: #1c1d1e;
+
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+.check-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 296px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.check-box label {
+    font-family: 'PF DinDisplay Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 100%;
+    /* identical to box height, or 11px */
+    width: 270px;
+    letter-spacing: 0.02em;
+    /* Черный 1 */
+
+    color: #A8A9AA;
+}
+
+.check-box input {
+    size: 16px;
+    margin-right: 10px;
+}
+
+
+
+.container {
+    gap: 20px;
+    display: flex;
+    width: 360px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

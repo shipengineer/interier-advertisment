@@ -1,0 +1,44 @@
+.background {
+    color: #F8F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    color: #F8F9FA;
+    width: 1290px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.h1 {
+    font-family: 'PF DinDisplay Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    letter-spacing: 0.02em;
+
+    /* Черный 2 */
+
+    color: #1C1D1E;
+}
+
+.text {
+    font-family: 'PF DinDisplay Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    letter-spacing: 0.02em;
+
+    /* Черный 2 */
+
+    color: #1C1D1E;
+}
