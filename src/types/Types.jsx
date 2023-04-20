@@ -67,11 +67,7 @@ const Types = () => {
 
   return (
     <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        flexDirection: 'column',
-      }}
+      className={styles.full}
     >
       <span className={styles.title}>ТЕХНОЛОГИИ ПРОИЗВОДСТВА</span>
       <div style={{ display: 'flex', justifyContent: 'center' }}>

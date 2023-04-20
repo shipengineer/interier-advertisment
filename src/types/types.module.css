@@ -5,11 +5,13 @@
   gap: 30px;
   justify-content: center;
 }
+
 .title {
   margin-left: 20px;
-  width: 1290px;
+
   margin-bottom: 23px;
   padding-left: 20px;
+  width: 1290px;
   align-self: center;
   border-left: 4px solid #dcb658;
   font-family: 'PF DinDisplay Pro';
@@ -25,4 +27,28 @@
   /* Черный 2 */
 
   color: #1c1d1e;
+}
+
+.full {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width:1290px) {
+  .background {
+    width: 690px;
+    justify-content: center;
+    align-items: center;
+    width: 690px;
+    height: fit-content;
+  }
+
+  .title {
+    margin-left: 0px;
+    font-size: 35px;
+    width: 690px;
+  }
+
+
+
 }

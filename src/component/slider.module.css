@@ -1,11 +1,12 @@
 .background {
-  height: 544px;
-  min-width: 1290px;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 30px;
 }
+
 .card {
   background: #ffffff;
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
@@ -17,12 +18,14 @@
   align-items: center;
   justify-content: center;
 }
+
 .image-container {
   width: 740px;
   height: 450px;
   display: flex;
   flex-direction: column;
 }
+
 .images {
   width: 740px;
   height: 450px;
@@ -30,6 +33,7 @@
   display: flex;
   flex-direction: row;
 }
+
 .title {
   margin-right: 40px;
   padding-left: 20px;
@@ -48,16 +52,20 @@
 
   color: #1c1d1e;
 }
+
 .buttons {
   position: sticky;
   width: 740px;
   display: flex;
   justify-content: space-between;
 }
+
 .images img {
   width: 740px;
 }
+
 .call-back {
+  margin-bottom: 50px;
   margin-top: 73px;
   width: 347px;
   height: 60px;
@@ -99,10 +107,12 @@
 
   color: #1c1d1e;
 }
+
 .li::before {
   content: url('../assets/icons/v-icon.png');
   margin-right: 10px;
 }
+
 .ul {
   padding-left: 0px;
 }
@@ -111,4 +121,31 @@
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 10px;
+}
+
+@media (max-width:1290px) {
+
+
+  .buttons {
+    width: 690px;
+  }
+
+  .images {
+    width: 690px;
+  }
+
+  .image-container {
+    align-items: center;
+    width: 690px;
+  }
+
+  .call-back {
+    margin-top: 16px;
+  }
+
+  .card {
+    height: fit-content;
+    flex-direction: column-reverse;
+    width: 690px;
+  }
 }

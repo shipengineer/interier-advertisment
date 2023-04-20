@@ -6,6 +6,7 @@
   justify-content: center;
   flex-direction: column;
 }
+
 .img {
   background-image: url('../../assets/types/layout.png');
 
@@ -16,6 +17,7 @@
 
   margin-bottom: 17px;
 }
+
 .border {
   position: relative;
   /* растягиваем на всю ширину и высоту */
@@ -28,6 +30,7 @@
   /* делаем чтобы картинка полностью растягивалась, необязательный стиль */
   background-size: 100% 100%;
 }
+
 .span {
   font-family: 'PF DinDisplay Pro';
   font-style: normal;
