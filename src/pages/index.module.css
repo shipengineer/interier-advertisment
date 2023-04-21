@@ -1,5 +1,7 @@
 .call-order {
-    margin-top: 94px;
-    margin-bottom: 100px;
+    padding-top: 94px;
+    padding-bottom: 100px;
     color: #ffff;
+    display: flex;
+    justify-content: center;
 }

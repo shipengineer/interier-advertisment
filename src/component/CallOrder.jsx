@@ -3,7 +3,7 @@ import user_img from '../assets/icons/user-icon.png'
 import phone_img from '../assets/icons/phone-icon.png'
 const CallOrder = (props) => {
     return (
-        <form className={styles.background}  >
+        <form className={styles.background} style={{ width: `${props.width}`, alignSelf: 'center' }}  >
             <span className={styles.span}>ПОЛУЧИТЕ ПОДРОБНУЮ СМЕТУ ПО ИГОТОВЛЕНИИ ВЫВЕСКИ</span>
             <span style={{ paddingBottom: '20px' }}>
                 <svg
@@ -31,7 +31,7 @@ const CallOrder = (props) => {
             </div>
             <div className={styles['check-box']}>
                 <input type="checkbox" id="agreement" />
-                <label htmlFor="agreement">Согласие с политикой обработки персональных данных</label>
+                <label >Согласие с политикой обработки персональных данных</label>
             </div>
         </form >);
 }

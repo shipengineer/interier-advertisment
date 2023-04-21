@@ -18,14 +18,15 @@ const Header = (props) => {
         <img src={logo_icon} alt='переход на главную' />
       </NavLink>
 
-      <NavButton link={'/index'} icon={index_icon} label={'ГЛАВНАЯ'} />
+      <NavButton link={'/index'} icon={index_icon} label={'ГЛАВНАЯ'} color={'#1c1d1e'} />
       <NavButton
         link={'/technology'}
         icon={technology_icon}
         label={'ТЕХНОЛОГИИ'}
+        color={'#1c1d1e'}
       />
-      <NavButton link={'/works'} icon={work_icon} label={'НАШИ РАБОТЫ'} />
-      <NavButton link={'/contacts'} icon={contacts_icon} label={'КОНТАКТЫ'} />
+      <NavButton link={'/works'} icon={work_icon} label={'НАШИ РАБОТЫ'} color={'#1c1d1e'} />
+      <NavButton link={'/contacts'} icon={contacts_icon} label={'КОНТАКТЫ'} color={'#1c1d1e'} />
       <div className={styles['phone-container']}>
         <a className={styles.email} href='tel:+79172366574'>
           +7 (917) 236-65-74

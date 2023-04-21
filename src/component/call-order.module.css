@@ -8,7 +8,7 @@
 
     background: #FFFFFF;
     /* Обводка */
-
+    width: 1290px;
     border: 1px solid #E4E5E6;
     box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
@@ -37,6 +37,18 @@
 }
 
 .user-phone {
+    font-family: 'PF DinDisplay Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: 0.02em;
+
+    /* Черный 1 */
+
+    color: #A8A9AA;
     /* Фон */
 
     background: #F8F9FA;
@@ -63,6 +75,19 @@
     background-color: #F8F9FA;
     margin-left: 21px;
     outline: none;
+
+    font-family: 'PF DinDisplay Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: 0.02em;
+
+    /* Черный 1 */
+
+    color: #A8A9AA;
 }
 
 .order-button {
