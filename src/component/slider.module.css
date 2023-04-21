@@ -29,9 +29,7 @@
 .images {
   width: 740px;
   height: 450px;
-  overflow-x: scroll;
-  display: flex;
-  flex-direction: row;
+
 }
 
 .title {
@@ -53,16 +51,9 @@
   color: #1c1d1e;
 }
 
-.buttons {
-  position: sticky;
-  width: 740px;
-  display: flex;
-  justify-content: space-between;
-}
 
-.images img {
-  width: 740px;
-}
+
+
 
 .call-back {
   margin-bottom: 50px;

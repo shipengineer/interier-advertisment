@@ -1,23 +1,10 @@
 import { useState } from 'react';
 import styles from './slider.module.css';
-import slide1 from '../assets/slider/logotipnastenu-1 1.png';
-import slide2 from '../assets/slider/logotipnastenu-1 2.png';
-import slide3 from '../assets/slider/logotipnastenu-10 1.png';
-import slide4 from '../assets/slider/logotipnastenu-4 1.png';
-import slide5 from '../assets/slider/logotipnastenu-8 1.png';
+
 import in_use from '../assets/slider/use-slide.png';
 import not_in_use from '../assets/slider/not-use-slide.png';
-const Roulette = () => {
-  //   const [slideNumber, setSlide] = useState(1);
-  //   const [autoPlay, setAutoPlay] = useState(true);
-  //   setInterval(() => {
-  //     if (!autoPlay && slideNumber > 5) {
-  //       setSlide(1);
-  //       setAutoPlay(true);
-  //     }
+const Slider = (props) => {
 
-  //     setSlide(slideNumber + 1);
-  //   }, 2000);
   return (
     <div className={styles.background}>
       <div className={styles.card}>
@@ -32,29 +19,11 @@ const Roulette = () => {
             ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК
           </button>
         </div>
-        <div className={styles['image-container']}>
-          <div className={styles.images}>
-            <img src={slide1} alt='' />
-            <img src={slide2} alt='' />
-            <img src={slide3} alt='' />
-            <img src={slide4} alt='' />
-            <img src={slide5} alt='' />
-          </div>
-          <div className={styles.buttons}>
-            <button className={styles.previous}>prev</button>
-            <button className={styles.next}>next</button>
-          </div>
-        </div>
+        <div className={styles.images}> {props.children}</div>
       </div>
-      <div className={styles.marks}>
-        <img src={in_use} alt='' />
-        <img src={not_in_use} alt='' />
-        <img src={not_in_use} alt='' />
-        <img src={not_in_use} alt='' />
-        <img src={not_in_use} alt='' />
-      </div>
+
     </div>
   );
 };
 
-export default Roulette;
+export default Slider;
