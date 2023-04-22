@@ -1,0 +1,18 @@
+.background{
+    width: 600px;
+    height: 544px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.mainItem{
+    width: 600px;
+    height: 450px;
+
+}
+.images{
+    width: 112px;
+    height: 84px;
+    
+}
